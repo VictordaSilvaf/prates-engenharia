@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#09090A] text-zinc-600 min-w-full;
+  @apply bg-white text-zinc-600 min-w-full;
   font-family: 'Catamaran', sans-serif;
 }

@@ -2,7 +2,7 @@ import { BtnMenu } from './BtnMenu'
 
 export function Menu() {
   return (
-    <div className="h-20 w-full bg-white flex items-center px-8 fixed relative text-gray-650 overflow-hidden">
+    <div className="h-20 w-full bg-white flex items-center px-8 fixed text-gray-650 overflow-hidden drop-shadow-md z-10">
       <a href="#" className="text-xl font-thin">
         <h1>PRATES Engenharia e Construtora</h1>
       </a>
