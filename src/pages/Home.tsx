@@ -2,6 +2,7 @@ import { Menu } from '../components/Menu'
 import { Gallery } from '../components/Gallery/index'
 
 import BgImage from '../assets/firstImageBg.png'
+import { Footer } from '../components/Footer/index'
 
 export function Home() {
   return (
@@ -27,10 +28,10 @@ export function Home() {
 
         <Gallery />
 
-        <section className="my-20 w-full px-10">
+        <section className="my-20 w-full px-0 sm:px-10">
           <h2 className="text-center mb-6 font-bold">NOVIDADES em breve!</h2>
-          <div className="w-full flex flex-wrap">
-            <div className="w-1/2 p-1 ">
+          <div className="w-full flex flex-wrap flex flex-col sm:flex-row">
+            <div className="w-full sm:w-1/2 h-full p-1 ">
               <div className="w-full bg-black bg-opacity-10 py-5 px-10">
                 <h3 className="font-bold text-lg">Software</h3>
                 <p className="font-thin mt-1">
@@ -39,7 +40,7 @@ export function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-1/2 p-1">
+            <div className="w-full sm:w-1/2 h-full p-1">
               <div className="w-full bg-black bg-opacity-10 py-5 px-10">
                 <h3 className="font-bold text-lg">Aplicativo</h3>
                 <p className="font-thin mt-1">
@@ -48,7 +49,7 @@ export function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-1/2 p-1">
+            <div className="w-full sm:w-1/2 h-full p-1">
               <div className="w-full bg-black bg-opacity-10 py-5 px-10">
                 <h3 className="font-bold text-lg">Canal Arquiteto</h3>
                 <p className="font-thin mt-1">
@@ -58,7 +59,7 @@ export function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-1/2 p-1">
+            <div className="w-full sm:w-1/2 h-full p-1">
               <div className="w-full bg-black bg-opacity-10 py-5 px-10">
                 <h3 className="font-bold text-lg">E-books</h3>
                 <p className="font-thin mt-1">
@@ -70,6 +71,7 @@ export function Home() {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   )
 }
