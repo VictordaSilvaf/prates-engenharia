@@ -7,7 +7,7 @@ export function Block({ url, alt }: BlockProps) {
   return (
     <a
       href="#"
-      className="w-80 h-80 hover:drop-shadow-lg p-1 grayscale hover:grayscale-0 hover:p-0 transition-all"
+      className="p-1 transition-all w-72 h-72 hover:drop-shadow-lg grayscale hover:grayscale-0 hover:p-0"
     >
       <img src={url} alt={alt} className="object-cover w-full h-full" />
     </a>

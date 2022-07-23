@@ -13,12 +13,12 @@ export function Menu() {
 
   return (
     <div className="flex">
-      <div className="h-20 w-full bg-white flex items-center px-8 fixed text-gray-650 overflow-x-hidden drop-shadow-md z-10">
+      <div className="fixed z-10 flex items-center w-full h-20 px-8 overflow-x-hidden bg-white text-gray-650 drop-shadow-md">
         <a href="/" className="text-xl font-thin">
           <h1>PRATES Engenharia e Construtora</h1>
         </a>
 
-        <div className="hidden absolute w-full justify-center md:hidden lg:flex">
+        <div className="absolute justify-center hidden w-full md:hidden lg:flex">
           <nav className="">
             <ul className="flex flex-row gap-8">
               <li>
@@ -44,29 +44,29 @@ export function Menu() {
         <div className=""></div>
       </div>
 
-      <Popover className="flex absolute w-full justify-end sm:flex md:flex lg:hidden pr-12 ">
+      <Popover className="absolute flex justify-end w-full pr-12 sm:flex md:flex lg:hidden ">
         <Popover.Button
-          className="z-20 mt-7 fixed"
+          className="fixed z-20 mt-7"
           title="Botão menu"
           onClick={ToggleVisibility}
         >
           <List className="h-7 w-7" />
         </Popover.Button>
-        <Popover.Panel className="w-52 bg-white r-1 z-50 fixed right-0 mt-20 drop-shadow-md transition-all duration-300">
+        <Popover.Panel className="fixed right-0 z-50 mt-20 transition-all duration-300 bg-white w-52 r-1 drop-shadow-md">
           <ul className="flex flex-col text-center">
-            <li className="p-1 border-b border-opacity-20 hover:bg-gray-100 transition-all duration-300">
+            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
               <CustomLinkCol to={'/'}>Home</CustomLinkCol>
             </li>
-            <li className="p-1 border-b border-opacity-20 hover:bg-gray-100 transition-all duration-300">
+            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
               <CustomLinkCol to="/historia">História</CustomLinkCol>
             </li>
-            <li className="p-1 border-b border-opacity-20 hover:bg-gray-100 transition-all duration-300">
+            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
               <CustomLinkCol to="/portfolio">Portfolio</CustomLinkCol>
             </li>
-            <li className="p-1 border-b border-opacity-20 hover:bg-gray-100 transition-all duration-300">
+            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
               <CustomLinkCol to="/processos">Processos</CustomLinkCol>
             </li>
-            <li className="p-1 border-b border-opacity-20 hover:bg-gray-100 transition-all duration-300">
+            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
               <CustomLinkCol to="/contato">Contato</CustomLinkCol>
             </li>
           </ul>

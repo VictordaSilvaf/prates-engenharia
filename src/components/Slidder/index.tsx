@@ -8,23 +8,23 @@ interface SlidderProps {
 
 export function Slidder({ url, alt, url2, alt2, reverse }: SlidderProps) {
   return (
-    <div className="h-72 flex flex-row mt-16">
+    <div className="flex flex-row mt-16 h-72">
       {reverse ? (
         <>
-          <div className="w-1/3 h-full">
-            <img className="object-cover h-full w-full" src={url} alt={alt} />
+          <div className="w-1/3 h-full duration-200 hover:drop-shadow-lg grayscale hover:grayscale-0">
+            <img className="object-cover w-full h-full" src={url} alt={alt} />
           </div>
-          <div className="w-2/3 h-full ml-2">
-            <img className="object-cover h-full w-full" src={url2} alt={alt2} />
+          <div className="w-2/3 h-full ml-2 duration-200 hover:drop-shadow-lg grayscale hover:grayscale-0">
+            <img className="object-cover w-full h-full" src={url2} alt={alt2} />
           </div>
         </>
       ) : (
         <>
-          <div className="w-2/3 h-full mr-2">
-            <img className="object-cover h-full w-full" src={url2} alt={alt2} />
+          <div className="w-2/3 h-full mr-2 duration-200 hover:drop-shadow-lg grayscale hover:grayscale-0">
+            <img className="object-cover w-full h-full" src={url2} alt={alt2} />
           </div>
-          <div className="w-1/3 h-full">
-            <img className="object-cover h-full w-full" src={url} alt={alt} />
+          <div className="w-1/3 h-full duration-200 hover:drop-shadow-lg grayscale hover:grayscale-0">
+            <img className="object-cover w-full h-full" src={url} alt={alt} />
           </div>
         </>
       )}
