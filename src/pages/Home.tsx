@@ -1,7 +1,7 @@
 import { Menu } from '../components/Menu'
 import { Gallery } from '../components/Gallery/index'
 
-import BgImage from '../assets/firstImageBg.png'
+import BgImage from '../assets/img/home/firstImageBg.png'
 import { Footer } from '../components/Footer/index'
 
 export function Home() {
