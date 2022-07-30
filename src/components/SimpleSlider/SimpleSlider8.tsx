@@ -1,9 +1,9 @@
 import Slider from 'react-slick'
 import { Images } from './Images'
 
-import Img1 from '../../assets/img/portfolio/8A_C-FSTUDIO/1.jpeg'
-import Img2 from '../../assets/img/portfolio/8A_C-FSTUDIO/2.jpeg'
-import Img3 from '../../assets/img/portfolio/8A_C-FSTUDIO/3.jpeg'
+import Img1 from '../../assets/img/portfolio/8A_C-FSTUDIO/1.png'
+import Img2 from '../../assets/img/portfolio/8A_C-FSTUDIO/2.png'
+import Img3 from '../../assets/img/portfolio/8A_C-FSTUDIO/3.png'
 
 export default function SimpleSlider8() {
   var settings = {

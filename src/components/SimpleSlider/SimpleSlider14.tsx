@@ -1,17 +1,17 @@
 import Slider from 'react-slick'
 import { Images } from './Images'
 
-import Img1 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/1.jpg'
-import Img2 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/2.jpg'
-import Img3 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/3.jpg'
-import Img4 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/4.jpg'
-import Img5 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/5.jpg'
-import Img6 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/6.jpg'
-import Img7 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/7.jpg'
-import Img8 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/8.jpg'
-import Img9 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/9.jpg'
-import Img10 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/10.jpg'
-import Img11 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/11.jpg'
+import Img1 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/1.png'
+import Img2 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/2.png'
+import Img3 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/3.png'
+import Img4 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/4.png'
+import Img5 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/5.png'
+import Img6 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/6.png'
+import Img7 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/7.png'
+import Img8 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/8.png'
+import Img9 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/9.png'
+import Img10 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/10.png'
+import Img11 from '../../assets/img/portfolio/14WENTZ-FELIPE_HESS/11.png'
 
 export default function SimpleSlider14() {
   var settings = {

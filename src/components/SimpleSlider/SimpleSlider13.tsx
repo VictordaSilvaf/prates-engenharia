@@ -1,16 +1,16 @@
 import Slider from 'react-slick'
 import { Images } from './Images'
 
-import Img1 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/1.jpeg'
-import Img2 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/2.jpeg'
-import Img3 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/3.jpeg'
-import Img4 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/4.jpeg'
-import Img5 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/5.jpeg'
-import Img6 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/6.jpeg'
-import Img7 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/7.jpeg'
-import Img8 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/8.jpeg'
-import Img9 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/9.jpeg'
-import Img10 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/10.jpeg'
+import Img1 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/1.png'
+import Img2 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/2.png'
+import Img3 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/3.png'
+import Img4 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/4.png'
+import Img5 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/5.png'
+import Img6 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/6.png'
+import Img7 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/7.png'
+import Img8 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/8.png'
+import Img9 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/9.png'
+import Img10 from '../../assets/img/portfolio/13LABORATÓRIO_GUARULHOS/10.png'
 
 export default function SimpleSlider13() {
   var settings = {

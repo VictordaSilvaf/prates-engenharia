@@ -1,12 +1,12 @@
 import Slider from 'react-slick'
 import { Images } from './Images'
 
-import Img1 from '../../assets/img/portfolio/10M_B/1.jpeg'
-import Img2 from '../../assets/img/portfolio/10M_B/2.jpeg'
-import Img3 from '../../assets/img/portfolio/10M_B/3.jpg'
-import Img4 from '../../assets/img/portfolio/10M_B/4.jpeg'
-import Img5 from '../../assets/img/portfolio/10M_B/5.jpeg'
-import Img6 from '../../assets/img/portfolio/10M_B/6.jpg'
+import Img1 from '../../assets/img/portfolio/10M_B/1.png'
+import Img2 from '../../assets/img/portfolio/10M_B/2.png'
+import Img3 from '../../assets/img/portfolio/10M_B/3.png'
+import Img4 from '../../assets/img/portfolio/10M_B/4.png'
+import Img5 from '../../assets/img/portfolio/10M_B/5.png'
+import Img6 from '../../assets/img/portfolio/10M_B/6.png'
 
 export default function SimpleSlider10() {
   var settings = {
