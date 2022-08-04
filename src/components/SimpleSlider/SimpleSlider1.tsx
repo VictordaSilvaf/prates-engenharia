@@ -30,7 +30,7 @@ export default function SimpleSlider1() {
   return (
     <Slider {...settings}>
       <Images url='https://drive.google.com/file/d/1TZVYrB4YU0wEyr8bcArTF3wL9ntWIhkh/view?usp=sharing' alt="" />
-      <Images url={Img2} alt="" />
+      <Images url='https://drive.google.com/file/d/1TYpacjOdODRuswsyAkfbilE1BRpLs_GT/view?usp=sharing' alt="" />
       <Images url={Img3} alt="" />
       <Images url={Img4} alt="" />
       <Images url={Img5} alt="" />
