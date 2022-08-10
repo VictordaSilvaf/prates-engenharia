@@ -19,7 +19,9 @@ export function Portfolio() {
       <section className="px-8 pt-20">
         <h2 className="mt-10 text-lg font-bold text-center">Portfólio</h2>
 
-        <h3 className="mt-5 mb-5 text-center">Obra: AK 1 - Sala 2</h3>
+        <h3 className="mt-5 mb-5 text-center">
+          Obra: COPAN - SALA2 ARQUITETURA
+        </h3>
         <SimpleSlider1 />
 
         <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>

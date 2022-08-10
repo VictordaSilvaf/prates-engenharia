@@ -16,63 +16,60 @@ import { Footer } from '../components/Footer/index'
 export function History() {
   return (
     <>
-      <section className="pt-20 lg:px-8">
+      <section className="pt-20">
         <h2 className="mt-10 text-lg font-bold text-center">Nossa História</h2>
-        <div className="w-full px-10 lg:px-48">
-          <div className="grid w-full mt-8 lg:gap-4 lg:grid-cols-12 ">
-            <div className="flex justify-center w-auto lg:w-full col-span-12 lg:col-span-3 lg:col-start-2 lg:block max-h-[330px]">
-              <img src={Cesar} alt="Foto Cesar" className="object-contain" />
+        <div className="w-full">
+          <div className="grid w-full grid-cols-12 mt-8 lg:gap-4">
+            <div className="flex justify-center w-auto lg:w-full object-scale-down col-span-12 lg:col-span-3 lg:block max-h-[260px]">
+              <img
+                src={Cesar}
+                alt="Foto Cesar"
+                className="object-scale-down h-full lg:w-full"
+              />
             </div>
-            <div className="flex items-center justify-center w-full col-span-7">
+            <div className="flex items-center justify-center w-full col-span-6 px-2 lg:px-5">
               <div className="flex flex-col items-center w-full pl-0 mt-4 text-center lg:mt-0 ">
                 <p className="mb-5">
-                  Cesar Prates, graduado em engenharia civil pela FAAP e
-                  pós-graduado pela USP, fundou em 2002 a PRATES Engenharia e
-                  Construtora, que se tornou uma importante empresa de
-                  engenharia no segmento.
+                  <b>Cesar Prates</b>, graduado em engenharia civil pela FAAP e
+                  pós-graduado gerenciamento de obras pela USP, fundou em 2003 a
+                  PRATES Engenharia e Construtora, que se tornou uma importante
+                  empresa de engenharia no segmento. Com o objetivo de
+                  proporcionar uma experiência especial ao cliente, a PRATES se
+                  destacou por oferecer atendimento personalizado, de acordo com
+                  a realidade e necessidade de cada obra.
                 </p>
                 <p className="mb-5">
-                  Com o objetivo de proporcionar uma experiência especial ao
-                  cliente, a PRATES se destacou por oferecer atendimento
-                  personalizado, de acordo com a realidade e necessidade de cada
-                  cliente.
-                </p>
-                <p>
                   “Contamos com um time de profissionais e parceiros que
-                  acredita e se compromete com o nosso trabalho, que faz com que
-                  a PRATES torne possível a realização de sonhos por meio da
-                  construção e reforma de lares e negócios.”
+                  acreditam e se comprometem com o nosso trabalho, QUE COM
+                  PLANEJAMENTO E MUITA DEDICAÇÃO faz com que a PRATES execute
+                  projetos respeitando cada detalhe.”
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="grid w-full gap-4 mt-8 lg:p-4 lg:grid-cols-12">
-            <div className="lg:order-last flex justify-center object-cover w-full  col-span-12 lg:col-span-3 lg:block h-[330px]">
+          <div className="grid w-full grid-cols-12 mt-8 lg:gap-4">
+            <div className="lg:order-last flex justify-center w-auto lg:w-full col-span-12 lg:col-span-3 lg:block max-h-[260px]">
               <img
                 src={Mariana}
                 alt="Foto Mariana"
-                className="h-full lg:w-full lg:object-cover"
+                className="object-scale-down h-full lg:w-full"
               />
             </div>
-            <div className="flex items-center justify-center col-span-12 lg:col-start-2 lg:col-span-7">
+            <div className="flex items-center justify-center col-span-12 lg:col-start-4 lg:col-span-6">
               <div className="flex flex-col items-center justify-end w-full pl-0 mt-4 text-center lg:mt-0 ">
                 <p className="mb-5">
-                  Mariana Schuindt, graduou-se nos cursos de Direito e Gestão
-                  Comercial, sendo desde sempre uma grande apaixonada pela
-                  comunicação.
+                  <b>Mariana Schuindt</b>, graduou-se nos cursos de Direito e
+                  Gestão Comercial, sendo desde sempre uma grande apaixonada
+                  pela comunicação.
                 </p>
                 <p className="mb-5">
                   Assumiu as áreas comercial e de marketing da PRATES Engenharia
                   e Construtora, com o ideal de trazer uma nova identidade à
-                  empresa que está no mercado há 20 anos.
-                </p>
-                <p>
-                  “Somos apaixonados por obras, desafios e processos e
-                  entendemos que em nossas mãos há muito mais do que isso:
-                  existem sonhos a serem concretizados, que se transformarão em
-                  lares e negócios, que para alguém, será parte de um futuro
-                  magnífico.”
+                  empresa que está no mercado há 20 anos. “Somos apaixonados por
+                  obras, desafios e processos e entendemos que em nossas mãos há
+                  muito mais do que UMA OBRA: existem sonhos a serem
+                  REALIZADOS!”
                 </p>
               </div>
             </div>
