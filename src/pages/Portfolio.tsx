@@ -19,45 +19,49 @@ export function Portfolio() {
       <section className="px-8 pt-20">
         <h2 className="mt-10 text-lg font-bold text-center">Portfólio</h2>
 
-        <h3 className="mt-5 mb-5 text-center">
-          Obra: COPAN - SALA2 ARQUITETURA
-        </h3>
+        <h3 className="mt-5 mb-5 text-center">COPAN - SALA2 ARQUITETURA</h3>
         <SimpleSlider1 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">
+          WENTZ - FELIPE HESS ARQUITETURA
+        </h3>
         <SimpleSlider2 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">JR - DUDA SENNA ARQUITETURA</h3>
         <SimpleSlider3 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">FELIPE KILARIS ARQUITETURA</h3>
         <SimpleSlider4 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">
+          LG - FIGUEIREDO & FISCHER ARQUITETURA
+        </h3>
         <SimpleSlider5 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">B&R - SALA2 ARQUITETURA</h3>
         <SimpleSlider7 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">LM - APTO 41 ARQUITETURA</h3>
         <SimpleSlider8 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">
+          M&V - ISABELA FRAIA ARQUITEURA
+        </h3>
         <SimpleSlider9 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">ANAS - F STUDIO</h3>
         <SimpleSlider10 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">B&G - SALA2 ARQUIETURA</h3>
         <SimpleSlider12 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">M&B - GIULIANA SCOLFARO</h3>
         <SimpleSlider13 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">LABGRU - PIETRO TERLIZZI</h3>
         <SimpleSlider14 />
 
-        <h3 className="mt-16 mb-5 text-center">Obra: B&R</h3>
+        <h3 className="mt-16 mb-5 text-center">JC - ESTÚDIO PENHA</h3>
         <SimpleSlider15 />
       </section>
       <Footer />

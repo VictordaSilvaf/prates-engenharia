@@ -4,12 +4,21 @@ export function CustomLink({ children, to, ...props }: LinkProps) {
   let resolved = useResolvedPath(to)
   let match = useMatch({ path: resolved.pathname, end: true })
 
+  function scrollTop(): void {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <>
       <Link
         to={to}
         {...props}
         className="hover:opacity-75 transition-all group relative duration-[200] ease-in-out"
+        onClick={() => scrollTop()}
       >
         <span className="w-full">{children}</span>
         {match ? (
