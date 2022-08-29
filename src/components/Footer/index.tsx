@@ -9,24 +9,24 @@ import {
 
 export function Footer() {
   return (
-    <footer className="w-full flex justify-center flex-col my-20">
+    <footer className="flex flex-col justify-center w-full my-20">
       <div style={{ margin: '0 auto' }} className="flex flex-row gap-4 my-10">
-        <a href="#" className="hover:opacity-60 transition-all">
+{/*         <a href="#" className="transition-all hover:opacity-60">
           <FacebookLogo size={28} />
-        </a>
-        <a href="#" className="hover:opacity-60 transition-all">
+        </a> */}
+        <a href="https://www.instagram.com/prates.construtora/?hl=pt-br" className="transition-all hover:opacity-60">
           <InstagramLogo size={28} />
         </a>
-        <a href="#" className="hover:opacity-60 transition-all">
+{/*         <a href="#" className="transition-all hover:opacity-60">
           <YoutubeLogo size={28} />
-        </a>
-        <a href="#" className="hover:opacity-60 transition-all">
+        </a> */}
+        <a href="https://wa.me/message/FVM4ZOCX7LYFM1" className="transition-all hover:opacity-60">
           <WhatsappLogo size={28} />
         </a>
-        <a href="#" className="hover:opacity-60 transition-all">
+{/*         <a href="#" className="transition-all hover:opacity-60">
           <TelegramLogo size={28} />
-        </a>
-        <a href="#" className="hover:opacity-60 transition-all">
+        </a> */}
+        <a href="https://www.linkedin.com/company/prates-engenharia-e-construtora-s-s-ltda./about/" className="transition-all hover:opacity-60">
           <LinkedinLogo size={28} />
         </a>
       </div>
