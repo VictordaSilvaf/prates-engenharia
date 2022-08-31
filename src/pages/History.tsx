@@ -77,6 +77,7 @@ export function History() {
         </div>
       </section>
 
+{/* New History */}
       <section className="flex justify-center w-full mt-20">
         <div className="w-8/12">
           <div className="flex justify-center w-full h-[400px] my-8">
