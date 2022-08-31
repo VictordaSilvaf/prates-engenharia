@@ -78,9 +78,33 @@ export function History() {
       </section>
 
       <section className="flex justify-center w-full mt-20">
-        <div className="w-8/12 bg-cyan-300">
-          <div className="flex justify-end w-full h-[400px]">
-            
+        <div className="w-8/12">
+          <div className="flex justify-center w-full h-[400px] my-8">
+            <img className="object-cover w-auto h-full" src={Img5} alt="" />
+          </div>
+
+          <div className="flex w-full h-[400px] my-8">
+            <img className="object-cover w-auto h-full" src={Img2} alt="" />
+          </div>
+
+          <div className="flex justify-end w-full h-[400px] my-8">
+            <img className="object-cover w-auto h-full" src={Img3} alt="" />
+          </div>
+
+          <div className="flex w-full h-[400px] my-8">
+            <img className="object-cover w-auto h-full" src={Img4} alt="" />
+          </div>
+
+          <div className="flex justify-end w-full h-[400px] my-8">
+            <img className="object-cover w-auto h-full" src={Img1} alt="" />
+          </div>
+
+          <div className="flex w-full h-[400px] my-8">
+            <img className="object-cover w-auto h-full" src={Img6} alt="" />
+          </div>
+
+          <div className="flex justify-end w-full h-[400px] my-8">
+            <img className="object-cover w-auto h-full" src={Img8} alt="" />
           </div>
         </div>
       </section>
