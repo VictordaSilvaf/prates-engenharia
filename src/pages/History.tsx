@@ -77,21 +77,11 @@ export function History() {
         </div>
       </section>
 
-      <section className="flex flex-row items-center justify-center w-full gap-10 mt-20">
-        <div className="w-[200px] h-[200px] p-1.5 hover:p-0 duration-200 ease-in-out">
-          <div className="w-full h-full bg-slate-500"></div>
-        </div>
-        <div className="w-[250px] h-[250px] p-1.5 hover:p-0 duration-200 ease-in-out">
-          <div className="w-full h-full bg-slate-500"></div>
-        </div>
-        <div className="w-[300px] h-[300px] p-1.5 hover:p-0 duration-200 ease-in-out">
-          <div className="w-full h-full bg-slate-500"></div>
-        </div>
-        <div className="w-[250px] h-[250px] p-1.5 hover:p-0 duration-200 ease-in-out">
-          <div className="w-full h-full bg-slate-500"></div>
-        </div>
-        <div className="w-[200px] h-[200px] p-1.5 hover:p-0 duration-200 ease-in-out">
-          <div className="w-full h-full bg-slate-500"></div>
+      <section className="flex justify-center w-full mt-20">
+        <div className="w-8/12 bg-cyan-300">
+          <div className="flex justify-end w-full h-[400px]">
+            
+          </div>
         </div>
       </section>
       <Footer />
