@@ -11,9 +11,9 @@ export function ProjectsGallery() {
   return (
     <>
       <div className="mt-5 ">
-        <div className="flex flex-wrap justify-start w-ful">
-          <div className="p-4 sm:w-1/3 lg:w-1/4">
-            <div className="lg:h-[320px] lg:w-[320px]">
+        <div className="flex flex-wrap justify-start w-full text-center">
+          <div className="p-4 sm:w-1/2 lg:w-1/4">
+            <div className="">
               <img src={Orcamento} className="w-full h-full"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Planilha Orçamentária</h2>
@@ -25,8 +25,8 @@ export function ProjectsGallery() {
             </p>
           </div>
 
-          <div className="p-4 sm:w-1/3 lg:w-1/4">
-            <div className="lg:h-[320px] lg:w-[320px]">
+          <div className="p-4 sm:w-1/2 lg:w-1/4">
+            <div className="">
               <img src={QCs} className="object-fill w-full h-full"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Quadro de Concorrência</h2>
@@ -36,12 +36,12 @@ export function ProjectsGallery() {
               melhor decisão comercial, uma vez que auxilia na análise das
               propostas de materiais e serviços de diferentes fornecedores,
               indicando preços, quantidades e prazos de forma equalizada, para a
-              melhor contratação
+              melhor contratação.
             </p>
           </div>
 
-          <div className="p-4 sm:w-1/3 lg:w-1/4">
-            <div className="lg:h-[320px] lg:w-[320px]">
+          <div className="p-4 sm:w-1/2 lg:w-1/4">
+            <div className="">
               <img src={PlanilhaContratacoes} className="w-full h-full"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Controle de Contratação</h2>
@@ -53,8 +53,8 @@ export function ProjectsGallery() {
             </p>
           </div>
 
-          <div className="p-4 sm:w-1/3 lg:w-1/4">
-            <div className="lg:h-[320px] lg:w-[320px]">
+          <div className="p-4 sm:w-1/2 lg:w-1/4">
+            <div className="">
               <img src={PlanilhaFinanceira} className="w-full h-full"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Controle Financeiro</h2>
@@ -65,8 +65,8 @@ export function ProjectsGallery() {
             </p>
           </div>
 
-          <div className="p-4 sm:w-1/3 lg:w-1/4">
-            <div className="lg:h-[320px] lg:w-[320px]">
+          <div className="p-4 sm:w-1/2 lg:w-1/4">
+            <div className="">
               <img src={RDO} className="w-full h-full"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">RDO</h2>
@@ -78,8 +78,8 @@ export function ProjectsGallery() {
             </p>
           </div>
 
-          <div className="p-4 sm:w-1/3 lg:w-1/4">
-            <div className="lg:h-[320px] lg:w-[320px]">
+          <div className="p-4 sm:w-1/2 lg:w-1/4">
+            <div className="">
               <img src={Histograma} className="w-full h-full"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Cronograma</h2>
@@ -92,8 +92,8 @@ export function ProjectsGallery() {
             </p>
           </div>
 
-          <div className="p-4 sm:w-1/3 lg:w-1/4">
-            <div className="lg:h-[320px] lg:w-[320px]">
+          <div className="p-4 sm:w-1/2 lg:w-1/4">
+            <div className="">
               <img src={Checklist} className="w-full h-full"></img>
             </div>
             <div className="h-full mt-4">
@@ -114,8 +114,8 @@ export function ProjectsGallery() {
             </div>
           </div>
 
-          <div className="p-4 sm:w-1/3 lg:w-1/4">
-            <div className="lg:h-[320px] lg:w-[320px]">
+          <div className="p-4 sm:w-1/2 lg:w-1/4">
+            <div className="">
               <img src={Painel} className="w-full h-full"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Painel de Controle</h2>

@@ -1,17 +1,17 @@
-import Cesar from '../assets/img/historia/cesar.jpeg'
-import Mariana from '../assets/img/historia/mariana.jpeg'
-import { Slidder } from '../components/Slidder/index'
+import Cesar from "../assets/img/historia/cesar.jpeg";
+import Mariana from "../assets/img/historia/mariana.jpeg";
+import { Slidder } from "../components/Slidder/index";
 
-import Img1 from '../assets/img/historia/galeria/1-1.jpg'
-import Img2 from '../assets/img/historia/galeria/1-2.jpg'
-import Img3 from '../assets/img/historia/galeria/2-1.jpg'
-import Img4 from '../assets/img/historia/galeria/2-2.jpg'
-import Img5 from '../assets/img/historia/galeria/3-1.jpg'
-import Img6 from '../assets/img/historia/galeria/3-2.jpg'
-import Img7 from '../assets/img/historia/galeria/4-1.jpeg'
-import Img8 from '../assets/img/historia/galeria/4-2.jpg'
-import Img9 from '../assets/img/historia/galeria/5.jpg'
-import { Footer } from '../components/Footer/index'
+import Img1 from "../assets/img/historia/galeria/1-1.jpg";
+import Img2 from "../assets/img/historia/galeria/1-2.jpg";
+import Img3 from "../assets/img/historia/galeria/2-1.jpg";
+import Img4 from "../assets/img/historia/galeria/2-2.jpg";
+import Img5 from "../assets/img/historia/galeria/3-1.jpg";
+import Img6 from "../assets/img/historia/galeria/3-2.jpg";
+import Img7 from "../assets/img/historia/galeria/4-1.jpeg";
+import Img8 from "../assets/img/historia/galeria/4-2.jpg";
+import Img9 from "../assets/img/historia/galeria/5.jpg";
+import { Footer } from "../components/Footer/index";
 
 export function History() {
   return (
@@ -75,43 +75,26 @@ export function History() {
             </div>
           </div>
         </div>
+      </section>
 
-        <div className="">
-          <Slidder
-            url={Img1}
-            alt="Inicio construção 1"
-            url2={Img2}
-            alt2="Inicio construção 2"
-            reverse={true}
-          />
-
-          <Slidder
-            url={Img3}
-            alt="Inicio construção 3"
-            url2={Img4}
-            alt2="Inicio construção 4"
-            reverse={false}
-          />
+      <section className="flex flex-row items-center justify-center w-full gap-10 mt-20">
+        <div className="w-[200px] h-[200px] p-1.5 hover:p-0 duration-200 ease-in-out">
+          <div className="w-full h-full bg-slate-500"></div>
         </div>
-        <div className="">
-          <Slidder
-            url={Img9}
-            alt="Inicio construção 1"
-            url2={Img6}
-            alt2="Inicio construção 2"
-            reverse={true}
-          />
-
-          <Slidder
-            url={Img7}
-            alt="Inicio construção 3"
-            url2={Img8}
-            alt2="Inicio construção 4"
-            reverse={false}
-          />
+        <div className="w-[250px] h-[250px] p-1.5 hover:p-0 duration-200 ease-in-out">
+          <div className="w-full h-full bg-slate-500"></div>
+        </div>
+        <div className="w-[300px] h-[300px] p-1.5 hover:p-0 duration-200 ease-in-out">
+          <div className="w-full h-full bg-slate-500"></div>
+        </div>
+        <div className="w-[250px] h-[250px] p-1.5 hover:p-0 duration-200 ease-in-out">
+          <div className="w-full h-full bg-slate-500"></div>
+        </div>
+        <div className="w-[200px] h-[200px] p-1.5 hover:p-0 duration-200 ease-in-out">
+          <div className="w-full h-full bg-slate-500"></div>
         </div>
       </section>
       <Footer />
     </>
-  )
+  );
 }
