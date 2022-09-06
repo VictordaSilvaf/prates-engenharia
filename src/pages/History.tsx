@@ -1,16 +1,14 @@
 import Cesar from "../assets/img/historia/cesar.jpeg";
 import Mariana from "../assets/img/historia/mariana.jpeg";
-import { Slidder } from "../components/Slidder/index";
 
-import Img1 from "../assets/img/historia/galeria/1-1.jpg";
-import Img2 from "../assets/img/historia/galeria/1-2.jpg";
-import Img3 from "../assets/img/historia/galeria/2-1.jpg";
-import Img4 from "../assets/img/historia/galeria/2-2.jpg";
-import Img5 from "../assets/img/historia/galeria/3-1.jpg";
-import Img6 from "../assets/img/historia/galeria/3-2.jpg";
-import Img7 from "../assets/img/historia/galeria/4-1.jpeg";
-import Img8 from "../assets/img/historia/galeria/4-2.jpg";
-import Img9 from "../assets/img/historia/galeria/5.jpg";
+import Img1 from "../assets/img/historia/galeria/1.png";
+import Img2 from "../assets/img/historia/galeria/2.png";
+import Img3 from "../assets/img/historia/galeria/3.png";
+import Img4 from "../assets/img/historia/galeria/4.png";
+import Img5 from "../assets/img/historia/galeria/6.png";
+import Img6 from "../assets/img/historia/galeria/5.png";
+import Img7 from "../assets/img/historia/galeria/7.png";
+import Img8 from "../assets/img/historia/galeria/8.png";
 import { Footer } from "../components/Footer/index";
 
 export function History() {
@@ -76,36 +74,121 @@ export function History() {
           </div>
         </div>
       </section>
-
-{/* New History */}
-      <section className="flex justify-center w-full mt-20">
-        <div className="w-8/12">
-          <div className="flex justify-center w-full h-[400px] my-8">
-            <img className="object-cover w-auto h-full" src={Img5} alt="" />
+      {/* style={{font-family: 'Oooh Baby', cursive;}} */}
+      {/* New History */}
+      <section
+        className="flex w-full mt-20"
+        style={{
+          fontFamily: "Oooh Baby",
+        }}
+      >
+        <div className="grid w-full h-auto grid-cols-12">
+          <div className="flex my-4 col-span-7 h-[90vh] bg-gradient-to-r from-transparent via-transparent to-white">
+            <img
+              className="object-cover w-full h-full -z-10"
+              src={Img2}
+              alt=""
+            />
+          </div>
+          <div className="flex my-4 justify-center items-center col-span-5 h-[90vh]">
+            <div className="max-w-sm text-2xl text-center">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat omnis inventore vitae. Aliquam possimus consectetur,
+                dolorum explicabo accusantium incidunt totam harum ad debitis
+                eius deserunt. Dolores odit dicta quo molestias.
+              </p>
+            </div>
           </div>
 
-          <div className="flex w-full h-[400px] my-8">
-            <img className="object-cover w-auto h-full" src={Img2} alt="" />
+          <div className="flex my-4 justify-center items-center col-span-5 h-[90vh]">
+            <div className="max-w-sm text-2xl text-center">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat omnis inventore vitae. Aliquam possimus consectetur,
+                dolorum explicabo accusantium incidunt totam harum ad debitis
+                eius deserunt. Dolores odit dicta quo molestias.
+              </p>
+            </div>
+          </div>
+          <div className="flex my-4 justify-end col-span-7 h-[90vh] bg-gradient-to-r from-white via-transparent to-transparent">
+            <img
+              className="object-cover w-auto h-full -z-10"
+              src={Img3}
+              alt=""
+            />
           </div>
 
-          <div className="flex justify-end w-full h-[400px] my-8">
-            <img className="object-cover w-auto h-full" src={Img3} alt="" />
+          <div className="flex my-4 col-span-7 h-[90vh] bg-gradient-to-r from-transparent via-transparent to-white">
+            <img
+              className="object-cover w-auto h-full -z-10"
+              src={Img4}
+              alt=""
+            />
+          </div>
+          <div className="flex my-4 justify-center items-center col-span-5 h-[90vh]">
+            <div className="max-w-sm text-2xl text-center">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat omnis inventore vitae. Aliquam possimus consectetur,
+                dolorum explicabo accusantium incidunt totam harum ad debitis
+                eius deserunt. Dolores odit dicta quo molestias.
+              </p>
+            </div>
           </div>
 
-          <div className="flex w-full h-[400px] my-8">
-            <img className="object-cover w-auto h-full" src={Img4} alt="" />
+          <div className="flex my-4 justify-center items-center col-span-5 h-[90vh]">
+            <div className="max-w-sm text-2xl text-center">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat omnis inventore vitae. Aliquam possimus consectetur,
+                dolorum explicabo accusantium incidunt totam harum ad debitis
+                eius deserunt. Dolores odit dicta quo molestias.
+              </p>
+            </div>
+          </div>
+          <div className="flex my-4 justify-end col-span-7 h-[90vh] bg-gradient-to-r from-white via-transparent to-transparent">
+            <img
+              className="object-cover w-auto h-full -z-10"
+              src={Img1}
+              alt=""
+            />
           </div>
 
-          <div className="flex justify-end w-full h-[400px] my-8">
-            <img className="object-cover w-auto h-full" src={Img1} alt="" />
+          <div className="flex my-4 col-span-7 h-[90vh] bg-gradient-to-r from-transparent via-transparent to-white">
+            <img
+              className="object-cover w-auto h-full -z-10"
+              src={Img6}
+              alt=""
+            />
+          </div>
+          <div className="flex my-4 justify-center items-center col-span-5 h-[90vh]">
+            <div className="max-w-sm text-2xl text-center">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat omnis inventore vitae. Aliquam possimus consectetur,
+                dolorum explicabo accusantium incidunt totam harum ad debitis
+                eius deserunt. Dolores odit dicta quo molestias.
+              </p>
+            </div>
           </div>
 
-          <div className="flex w-full h-[400px] my-8">
-            <img className="object-cover w-auto h-full" src={Img6} alt="" />
+          <div className="flex my-4 justify-center items-center col-span-5 h-[90vh]">
+            <div className="max-w-sm text-2xl text-center">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat omnis inventore vitae. Aliquam possimus consectetur,
+                dolorum explicabo accusantium incidunt totam harum ad debitis
+                eius deserunt. Dolores odit dicta quo molestias.
+              </p>
+            </div>
           </div>
-
-          <div className="flex justify-end w-full h-[400px] my-8">
-            <img className="object-cover w-auto h-full" src={Img8} alt="" />
+          <div className="flex my-4 justify-end col-span-7 h-[90vh] bg-gradient-to-r from-white via-transparent to-transparent">
+            <img
+              className="object-cover w-auto h-full -z-10"
+              src={Img8}
+              alt=""
+            />
           </div>
         </div>
       </section>

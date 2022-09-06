@@ -28,6 +28,10 @@ export default function SimpleSlider13() {
       <Images url={Img4} alt="" />
       <Images url={Img5} alt="" />
       <Images url={Img6} alt="" />
+      <Images url={Img7} alt="" />
+      <Images url={Img8} alt="" />
+      <Images url={Img9} alt="" />
+      <Images url={Img10} alt="" />
     </Slider>
   )
 }

@@ -6,15 +6,12 @@ import Img2 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/2.png'
 import Img3 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/3.png'
 import Img4 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/4.png'
 import Img5 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/5.png'
-import Img6 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/6.png'
 import Img7 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/7.png'
 import Img8 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/8.png'
 import Img9 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/9.png'
 import Img10 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/10.png'
 import Img11 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/11.png'
 import Img12 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/12.png'
-import Img13 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/13.png'
-import Img14 from '../../assets/img/portfolio/15RESTAURANTE-ESTÚDIO_PENHA/14.png'
 
 export default function SimpleSlider15() {
   var settings = {
@@ -31,15 +28,12 @@ export default function SimpleSlider15() {
       <Images url={Img3} alt="" />
       <Images url={Img4} alt="" />
       <Images url={Img5} alt="" />
-      <Images url={Img6} alt="" />
       <Images url={Img7} alt="" />
       <Images url={Img8} alt="" />
       <Images url={Img9} alt="" />
       <Images url={Img10} alt="" />
       <Images url={Img11} alt="" />
       <Images url={Img12} alt="" />
-      <Images url={Img13} alt="" />
-      <Images url={Img14} alt="" />
     </Slider>
   )
 }
