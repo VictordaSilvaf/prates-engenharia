@@ -4,6 +4,8 @@ import { useState } from 'react'
 import { CustomLink } from './CustomLink'
 import { CustomLinkCol } from './CustomLinkCol'
 
+import Logo from '../../assets/img/logo/logo.png'
+
 export function Menu() {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -14,8 +16,8 @@ export function Menu() {
   return (
     <div className="flex">
       <div className="fixed z-10 flex items-center w-full h-20 px-8 overflow-x-hidden bg-white text-gray-650 drop-shadow-md">
-        <a href="/" className="text-xl font-thin">
-          <h1>PRATES Engenharia e Construtora</h1>
+        <a href="/" className="text-xl font-thin w-36">
+          <img src={Logo} alt="Logo prates" />
         </a>
 
         <div className="absolute justify-center hidden w-full md:hidden lg:flex">
@@ -25,10 +27,10 @@ export function Menu() {
                 <CustomLink to="/">Home</CustomLink>
               </li>
               <li>
-                <CustomLink to="/historia">História</CustomLink>
+                <CustomLink to="/historia">Que somos</CustomLink>
               </li>
               <li>
-                <CustomLink to="/portfolio">Portfolio</CustomLink>
+                <CustomLink to="/portfolio">Portfólio</CustomLink>
               </li>
               <li>
                 <CustomLink to="/processos">Processos</CustomLink>

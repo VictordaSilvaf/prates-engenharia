@@ -7,7 +7,6 @@ import SimpleSlider5 from '../components/SimpleSlider/SimpleSlider5'
 import SimpleSlider7 from '../components/SimpleSlider/SimpleSlider7'
 import SimpleSlider8 from '../components/SimpleSlider/SimpleSlider8'
 import SimpleSlider9 from '../components/SimpleSlider/SimpleSlider9'
-import SimpleSlider10 from '../components/SimpleSlider/SimpleSlider10'
 import SimpleSlider12 from '../components/SimpleSlider/SimpleSlider12'
 import SimpleSlider14 from '../components/SimpleSlider/SimpleSlider14'
 import SimpleSlider13 from '../components/SimpleSlider/SimpleSlider13'
@@ -23,45 +22,42 @@ export function Portfolio() {
         <SimpleSlider1 />
 
         <h3 className="mt-16 mb-5 text-center">
-          WENTZ - FELIPE HESS ARQUITETURA
+          G&M - FELIPE KILARIS ARQUITETURA
         </h3>
         <SimpleSlider2 />
 
-        <h3 className="mt-16 mb-5 text-center">JR - DUDA SENNA ARQUITETURA</h3>
+        <h3 className="mt-16 mb-5 text-center">B&R - SALA2 ARQUITETURA</h3>
         <SimpleSlider3 />
 
-        <h3 className="mt-16 mb-5 text-center">FELIPE KILARIS ARQUITETURA</h3>
+        <h3 className="mt-16 mb-5 text-center">LM - APTO41 ARQUITETURA</h3>
         <SimpleSlider4 />
 
-        <h3 className="mt-16 mb-5 text-center">
-          LG - FIGUEIREDO & FISCHER ARQUITETURA
-        </h3>
+        <h3 className="mt-16 mb-5 text-center">CLÍNICA - ISABELA FRAIA</h3>
         <SimpleSlider5 />
 
-        <h3 className="mt-16 mb-5 text-center">B&R - SALA2 ARQUITETURA</h3>
+        <h3 className="mt-16 mb-5 text-center">JR - DUDA SENNA ARQUITETURA</h3>
         <SimpleSlider7 />
 
-        <h3 className="mt-16 mb-5 text-center">LM - APTO 41 ARQUITETURA</h3>
+        <h3 className="mt-16 mb-5 text-center">ANAS - F.STUDIO ARQUITETURA</h3>
         <SimpleSlider8 />
 
-        <h3 className="mt-16 mb-5 text-center">
-          M&V - ISABELA FRAIA ARQUITEURA
-        </h3>
+
+        <h3 className="mt-16 mb-5 text-center">B&G - SALA2 ARQUITETURA</h3>
         <SimpleSlider9 />
 
-        <h3 className="mt-16 mb-5 text-center">ANAS - F STUDIO</h3>
-        <SimpleSlider10 />
+{/*         <h3 className="mt-16 mb-5 text-center">MB - ARQUITETURA</h3>
+        <SimpleSlider10 /> */}
 
-        <h3 className="mt-16 mb-5 text-center">B&G - SALA2 ARQUIETURA</h3>
+        <h3 className="mt-16 mb-5 text-center">GHI - FIGUEIREDO FISCHER ARQUITETOS</h3>
         <SimpleSlider12 />
 
-        <h3 className="mt-16 mb-5 text-center">M&B - GIULIANA SCOLFARO</h3>
+        <h3 className="mt-16 mb-5 text-center">LABGRU - PIETRO TERLIZZI ARQUITETURA</h3>
         <SimpleSlider13 />
 
-        <h3 className="mt-16 mb-5 text-center">LABGRU - PIETRO TERLIZZI</h3>
+        <h3 className="mt-16 mb-5 text-center">WENTZ - FELIPE HESS ARQUITETOS</h3>
         <SimpleSlider14 />
 
-        <h3 className="mt-16 mb-5 text-center">JC - ESTÚDIO PENHA</h3>
+        <h3 className="mt-16 mb-5 text-center">JC RESTAURANTE - ESTÚDIO PENHA ARQUITETOS</h3>
         <SimpleSlider15 />
       </section>
       <Footer />

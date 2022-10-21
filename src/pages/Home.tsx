@@ -1,8 +1,8 @@
-import { Menu } from '../components/Menu'
-import { Gallery } from '../components/Gallery/index'
+import { Menu } from "../components/Menu";
+import { Gallery } from "../components/Gallery/index";
 
-import BgImage from '../assets/img/home/firstImageBg.png'
-import { Footer } from '../components/Footer/index'
+import BgImage from "../assets/img/home/bannerImage.jpg";
+import { Footer } from "../components/Footer/index";
 
 export function Home() {
   return (
@@ -14,22 +14,20 @@ export function Home() {
       <div className="flex flex-col justify-center px-20">
         <section
           className="my-16 text-center md:w-2/4 sm:w-full"
-          style={{ margin: '4rem auto' }}
+          style={{ margin: "4rem auto" }}
         >
-          <h2 className="mb-4 text-lg font-bold text-center">Quem somos</h2>
+          {/* <h2 className="mb-4 text-lg font-bold text-center">Quem somos</h2> */}
           <p className="font-thin text-center">
-            Há 20 anos a PRATES é uma engenharia e construtora que executa
-            projetos residenciais, comerciais e corporativos, executando obras
-            rápidas e complexas, em diversas localidades, sempre promovendo a
-            gestão da execução de todas as etapas da obra, que vão do
-            planejamento à entrega.
+            Desde 2003, a PRATES é uma engenharia e construtora que executa
+            projetos residenciais, comerciais e corporativos, rápidos e
+            complexos, em diversas localidades, promovendo a gestão e excelência
+            de todas as etapas da obra, que vão do planejamento à entrega.
           </p>
 
           <p className="mt-1 font-thin text-center">
-            Sempre conscientes do tamanho da responsabilidade que carregamos com
-            a transformação de sonhos em realidade, oferecemos soluções sob
-            medida para cada obra, com foco exclusivamente na satisfação do
-            cliente.
+            Sempre consciente do tamanho da responsabilidade que carrega com a
+            transformação de sonhos em realidade, oferece soluções sob medida
+            para cada obra, com foco exclusivamente na satisfação do cliente.
           </p>
         </section>
       </div>
@@ -82,5 +80,5 @@ export function Home() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
