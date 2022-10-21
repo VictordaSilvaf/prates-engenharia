@@ -1,10 +1,9 @@
 import Slider from 'react-slick'
 import { Images } from './Images'
 
-import Img1 from '../../assets/img/portfolio/1AK-SALA2/1.png'
-import Img2 from '../../assets/img/portfolio/1AK-SALA2/2.png'
-import Img3 from '../../assets/img/portfolio/1AK-SALA2/3.png'
-import Img4 from '../../assets/img/portfolio/1AK-SALA2/4.png'
+import {Img1, Img2, Img3, Img4} from '../../assets/img/portfolio/1AK-SALA2'
+
+
 export default function SimpleSlider1() {
   var settings = {
     dots: true,
@@ -14,7 +13,7 @@ export default function SimpleSlider1() {
     slidesToScroll: 4
   }
   return (
-    <Slider {...settings}>
+    <Slider {...settings} >
       <Images url={Img1} alt="" />
       <Images url={Img2} alt="" />
       <Images url={Img3} alt="" />

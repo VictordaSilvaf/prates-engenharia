@@ -11,7 +11,6 @@ export function Images({ url, alt }: ImageProps) {
           className="object-fill w-full h-full p-0.5 hover:p-0 duration-150"
           src={url}
           alt={alt}
-          loading="lazy"
         />
       </div>
     </>
