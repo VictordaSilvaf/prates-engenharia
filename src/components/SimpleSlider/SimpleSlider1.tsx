@@ -1,8 +1,6 @@
 import Slider from 'react-slick'
 import { Images } from './Images'
 
-import {Img1, Img2, Img3, Img4} from '../../assets/img/portfolio/1AK-SALA2'
-
 
 export default function SimpleSlider1() {
   var settings = {
