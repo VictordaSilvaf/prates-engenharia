@@ -1,6 +1,6 @@
 import { LazyBlock } from "../LazyBlock";
 
-const images = import.meta.glob("/home/*.(jpg|png|jpeg)");
+const images = import.meta.glob("./home/*.(jpg|png|jpeg)");
 
 export function Gallery() {
   const blockImages = Object.keys(images);
