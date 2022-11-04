@@ -21,19 +21,19 @@ export function Gallery() {
     <div className="flex justify-center w-full">
       <div className="flex flex-wrap justify-center min-h-8">
         <Block url={Img1} alt="" />
-        <Block url={Img2} alt="" />
+        {/* <Block url={Img2} alt="" />  */}
         <Block url={Img3} alt="" />
         <Block url={Img4} alt="" />
-        <Block url={Img5} alt="" />
+        {/* <Block url={Img5} alt="" /> */}
         <Block url={Img6} alt="" />
-        <Block url={Img7} alt="" />
-        <Block url={Img8} alt="" />
+        {/* <Block url={Img7} alt="" /> */}
+        {/* <Block url={Img8} alt="" /> */}
         <Block url={Img9} alt="" />
         <Block url={Img10} alt="" />
         <Block url={Img11} alt="" />
         <Block url={Img12} alt="" />
         <Block url={Img13} alt="" />
-        <Block url={Img14} alt="" />
+        {/* <Block url={Img14} alt="" /> */}
         <Block url={Img15} alt="" />
       </div>
     </div>
