@@ -1,5 +1,4 @@
 import LazyLoad from "react-lazyload";
-import { Block } from "../Gallery/Block";
 
 interface Props {
   url: string;
