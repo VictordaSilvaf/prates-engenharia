@@ -31,7 +31,7 @@ export function Home() {
           </p>
         </section>
       </div>
-      <div className="w-full ">
+      <div className="w-full">
         <Gallery />
       </div>
       <div className="flex flex-col justify-center px-20">
