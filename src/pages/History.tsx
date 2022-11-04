@@ -29,7 +29,7 @@ export function History() {
                   Apaixonados por obras, desafios e processos, os sócios Cesar
                   Prates e Mariana Schuindt apostam nas soluções que a
                   engenharia civil promove para tornar palpável projetos de
-                  design e arquitetura maneira responsável, eficiente e segura,
+                  design e arquitetura de maneira responsável, eficiente e segura,
                   de acordo com a realidade e necessidade de cada cliente. O
                   processo de criação ou transformação de ambientes começa na
                   escolha de um time de profissionais competente, que acredita,
@@ -49,6 +49,8 @@ export function History() {
           </div>
         </div>
       </section>
+
+      <h2 className="mt-10 text-lg font-bold text-center">Inicio da nossa história</h2>
 
       {/* New History */}
       <section

@@ -1,27 +1,37 @@
-import { Menu } from "../components/Menu";
 import { Gallery } from "../components/Gallery/index";
 
 import BgImage from "../assets/img/home/bannerImage.jpg";
 import { Footer } from "../components/Footer/index";
+import { WhatsappLogo } from "phosphor-react";
 
 export function Home() {
   return (
     <div className="">
+      <section className="fixed z-30 flex items-end justify-end float-left w-screen h-screen px-10 py-8 lg:hidden ">
+        <a
+          href="https://wa.me/message/FVM4ZOCX7LYFM1"
+          className="z-40 p-2 font-black text-green-500 transition-all bg-white rounded-full shadow-lg pointer-events-auto hover:bg-slate-100"
+        >
+          <WhatsappLogo size={28} />
+        </a>
+      </section>
+
       {/* BG Image */}
       <section className="w-full min-h-screen bg-white">
         <img src={BgImage} alt="" className="object-cover w-screen h-screen" />
       </section>
+      
       <div className="flex flex-col justify-center px-20">
         <section
           className="my-16 text-center md:w-2/4 sm:w-full"
           style={{ margin: "4rem auto" }}
         >
-          {/* <h2 className="mb-4 text-lg font-bold text-center">Quem somos</h2> */}
           <p className="font-thin text-center">
             Desde 2003, a PRATES é uma engenharia e construtora que executa
-            projetos residenciais, comerciais e corporativos, rápidos e
-            complexos, em diversas localidades, promovendo a gestão e excelência
-            de todas as etapas da obra, que vão do planejamento à entrega.
+            projetos residenciais, comerciais e corporativos, corporativos,
+            obras rápidas e complexas, em diversas localidades, promovendo a
+            gestão e excelência de todas as etapas da obra, que vão do
+            planejamento à entrega.
           </p>
 
           <p className="mt-1 font-thin text-center">

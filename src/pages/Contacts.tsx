@@ -1,6 +1,7 @@
 import { Menu } from "../components/Menu";
 import { Phone, EnvelopeSimple } from "phosphor-react";
 import { Footer } from "../components/Footer/index";
+import { MapComponent } from '../components/MapComponent/index';
 
 export function Contacts() {
   return (
@@ -32,7 +33,9 @@ export function Contacts() {
           </div>
 
           <div className="flex flex-row w-full gap-8">
-            <div className="h-full bg-purple-700 rounded-xl lg:w-4/6"></div>
+            <div className="h-full bg-purple-700 rounded-xl lg:w-4/6">
+              <MapComponent />
+            </div>
             <div className="lg:w-2/6">
               <form
                 action="https://formsubmit.co/victordasilvafernandes@gmail.com"
