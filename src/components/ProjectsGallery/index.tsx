@@ -14,7 +14,7 @@ export function ProjectsGallery() {
         <div className="flex flex-wrap justify-start w-full text-center">
           <div className="p-4 sm:w-1/2 lg:w-1/4">
             <div className="">
-              <img src={Orcamento} className="w-full h-full"></img>
+              <img src={Orcamento} className="w-full h-[300px] object-cover"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Planilha Orçamentária</h2>
             <p className="mt-2">
@@ -25,9 +25,9 @@ export function ProjectsGallery() {
             </p>
           </div>
 
-          <div className="p-4 sm:w-1/2 lg:w-1/4">
+          <div className="p-4 sm:w-1/2 lg:w-1/4 ">
             <div className="">
-              <img src={QCs} className="object-fill w-full h-full"></img>
+              <img src={QCs} className="object-fill w-full h-[300px]"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Quadro de Concorrência</h2>
             <p className="mt-2">
@@ -42,7 +42,7 @@ export function ProjectsGallery() {
 
           <div className="p-4 sm:w-1/2 lg:w-1/4">
             <div className="">
-              <img src={PlanilhaContratacoes} className="w-full h-full"></img>
+              <img src={PlanilhaContratacoes} className="w-full h-[300px] object-cover"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Controle de Contratação</h2>
             <p className="mt-2">
@@ -55,7 +55,7 @@ export function ProjectsGallery() {
 
           <div className="p-4 sm:w-1/2 lg:w-1/4">
             <div className="">
-              <img src={PlanilhaFinanceira} className="w-full h-full"></img>
+              <img src={PlanilhaFinanceira} className="w-full h-[300px] object-cover"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Controle Financeiro</h2>
             <p className="mt-2">
@@ -67,7 +67,7 @@ export function ProjectsGallery() {
 
           <div className="p-4 sm:w-1/2 lg:w-1/4">
             <div className="">
-              <img src={RDO} className="w-full h-full"></img>
+              <img src={RDO} className="w-full h-[300px] object-cover"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">RDO</h2>
             <p className="mt-2">
@@ -80,7 +80,7 @@ export function ProjectsGallery() {
 
           <div className="p-4 sm:w-1/2 lg:w-1/4">
             <div className="">
-              <img src={Histograma} className="w-full h-full"></img>
+              <img src={Histograma} className="w-full h-[300px] object-cover"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Cronograma</h2>
             <p className="mt-2">
@@ -94,7 +94,7 @@ export function ProjectsGallery() {
 
           <div className="p-4 sm:w-1/2 lg:w-1/4">
             <div className="">
-              <img src={Checklist} className="w-full h-full"></img>
+              <img src={Checklist} className="w-full h-[300px] object-cover"></img>
             </div>
             <div className="h-full mt-4">
               <h2 className="text-lg font-bold ">Checklist</h2>
@@ -116,7 +116,7 @@ export function ProjectsGallery() {
 
           <div className="p-4 sm:w-1/2 lg:w-1/4">
             <div className="">
-              <img src={Painel} className="w-full h-full"></img>
+              <img src={Painel} className="w-full h-[300px] object-cover"></img>
             </div>
             <h2 className="mt-4 text-lg font-bold">Painel de Controle</h2>
             <p className="mt-2">

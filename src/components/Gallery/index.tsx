@@ -1,12 +1,9 @@
-import { Block } from './Block'
+import { LazyBlock } from "../LazyBlock";
 
-import { LazyBlock } from '../LazyBlock'
-
-const images = import.meta.glob("/public/home/*.\(jpg|png|jpeg)")
-console.log(images)
+const images = import.meta.glob("/public/home/*.(jpg|png|jpeg)");
 
 export function Gallery() {
-  const blockImages = Object.keys(images)
+  const blockImages = Object.keys(images);
 
   return (
     <div className="flex justify-center w-full">
@@ -16,5 +13,5 @@ export function Gallery() {
         ))}
       </div>
     </div>
-  )
+  );
 }

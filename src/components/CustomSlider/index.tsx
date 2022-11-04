@@ -9,7 +9,6 @@ interface Props {
 
 export function CustomSlider({ images }: Props){
   const sliderImages = Object.keys(images);
-  console.log(sliderImages)
 
   return (
     <LazyLoad once height="1200">
