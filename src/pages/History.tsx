@@ -14,16 +14,17 @@ export function History() {
       <section className="pt-20">
         <h2 className="mt-10 text-lg font-bold text-center">Quem somos</h2>
         <div className="w-full">
-          <div className="grid w-full grid-cols-12 mt-2 lg:mt-8 lg:gap-4">
-            <div className="flex justify-center w-auto lg:w-full col-span-12 lg:col-span-3 lg:block max-h-[260px] m-8 lg:ml-28 lg:m-0">
+          <div className="flex flex-col w-full grid-cols-12 px-5 mt-2 lg:grid lg:mt-8 lg:gap-4">
+
+            <div className="flex justify-center col-span-3">
               <img
                 src={Cesar}
                 alt="Foto Cesar"
-                className="object-cover w-64 h-64 overflow-hidden rounded-full"
+                className="object-cover w-64 h-64 overflow-hidden rounded-full "
               />
             </div>
             
-            <div className="flex items-center justify-center col-span-12 lg:col-start-4 lg:col-span-6">
+            <div className="flex justify-center col-span-6">
               <div className="flex flex-col items-center justify-end w-full px-10 mt-4 text-center lg:p-0 lg:mt-0">
                 <p className="mb-5">
                   Apaixonados por obras, desafios e processos, os sócios Cesar
@@ -39,13 +40,15 @@ export function History() {
                 </p>
               </div>
             </div>
-            <div className="lg:order-last flex justify-center w-auto lg:w-full col-span-12 lg:col-span-3 lg:block max-h-[260px]">
+            
+            <div className="flex justify-center col-span-3">
               <img  
                 src={Mariana}
                 alt="Foto Mariana"
                 className="object-cover w-64 h-64 overflow-hidden rounded-full"
               />
             </div>
+            
           </div>
         </div>
       </section>
