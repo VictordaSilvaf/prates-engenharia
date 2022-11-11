@@ -1,5 +1,3 @@
-import { Gallery } from '../components/Gallery'
-import { Menu } from '../components/Menu'
 import { Footer } from '../components/Footer/index'
 import { ProjectsGallery } from '../components/ProjectsGallery'
 
