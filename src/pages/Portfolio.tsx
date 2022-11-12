@@ -3,13 +3,13 @@ import { CustomSlider } from "../components/CustomSlider";
 
 export function Portfolio() {
   const slider1 = import.meta.globEager(
-    "./public/portfolio/1AK-SALA2/*.(jpg|png|jpeg)"
+    "/public/portfolio/1AK-SALA2/*.(jpg|png|jpeg)"
   );
   const slider2 = import.meta.globEager(
     "/portfolio/2G_M-FelipeKilares/*.(jpg|png|jpeg)"
   );
   const slider3 = import.meta.globEager(
-    "./portfolio/3B_R-SALA2/*.(jpg|png|jpeg)"
+    "/portfolio/3B_R-SALA2/*.(jpg|png|jpeg)"
   );
   const slider4 = import.meta.globEager(
     "/public/portfolio/4LM-APTO41/*.(jpg|png|jpeg)"
@@ -39,10 +39,14 @@ export function Portfolio() {
   const slider13 = import.meta.globEager(
     "/public/portfolio/15RESTAURANTE-ESTUDIO_PENHA/*.(jpg|png|jpeg)"
   );
+  
+  console.log(slider1)
 
   return (
     <>
       <section className="px-8 pt-20">
+      
+
         <h2 className="mt-10 text-lg font-bold text-center">Portfólio</h2>
 
         <h3 className="mt-5 mb-5 text-center">COPAN - SALA2 ARQUITETURA</h3>
