@@ -30,7 +30,7 @@ export function Footer() {
           <LinkedinLogo size={28} />
         </a>
       </div>
-      <div style={{ margin: '2rem auto' }}>
+      <div style={{ margin: '2rem auto' }} className="text-center">
         <span>
           Copyright © 2022 Prates Engenharia. Todos os direitos reservados
         </span>

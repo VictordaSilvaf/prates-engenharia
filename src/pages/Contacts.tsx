@@ -6,8 +6,8 @@ import { MapComponent } from '../components/MapComponent/index';
 export function Contacts() {
   return (
     <>
-      <div className="flex flex-col h-auto">
-        <section className="pt-10 px-8 md:pt-20 lg:px-24 flex lg:flex-col h-[550px] flex-col">
+      <div className="flex flex-col h-auto mt-20 lg:mt-0">
+        <section className="pt-10 px-8 md:pt-20 lg:px-24 flex lg:flex-col lg:h-[550px] flex-col">
           <div className="w-full">
             <div className="flex flex-col gap-4 p-8 lg:w-3/8">
               <h2 className="text-xl font-thin leading-normal text-center lg:text-left">
@@ -32,11 +32,11 @@ export function Contacts() {
             </div>
           </div>
 
-          <div className="flex flex-row w-full gap-8">
-            <div className="h-full bg-purple-700 rounded-xl lg:w-4/6">
+          <div className="flex flex-col w-full gap-8 lg:flex-row">
+            <div className="w-full h-[300px] bg-purple-700 rounded-xl lg:w-4/6 z-0">
               <MapComponent />
             </div>
-            <div className="lg:w-2/6">
+            <div className="w-full lg:w-2/6">
               <form
                 action="https://formsubmit.co/victordasilvafernandes@gmail.com"
                 method="POST"
@@ -86,7 +86,7 @@ export function Contacts() {
             </div>
           </div>
         </section>
-        <div className="bg-white mt-80">
+        <div className="mt-5 bg-white">
           <Footer />
         </div>
       </div>
