@@ -10,9 +10,9 @@ interface ImageProps {
 export function Images({ url, alt }: ImageProps) {
   return (
     <>
-      <div className="overflow-hidden sm:h-44 md:h-52 lg:h-72">
+      <div className="relative overflow-hidden sm:h-44 md:h-52 lg:h-72">
         <LazyLoadImage
-          className="object-right-bottom w-full h-full p-0.5"
+          className="p-0.5"
           src={url}
           effect="black-and-white"
           alt={alt}

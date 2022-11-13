@@ -11,6 +11,7 @@ export function CustomSlider({ images }: Props){
   const sliderImages = Object.keys(images);
 
   return (
+    <>
     <LazyLoad once height="200">
       <Slider
         dots={true}
@@ -20,10 +21,11 @@ export function CustomSlider({ images }: Props){
         slidesToScroll={4}
         className=""
       >
-        {sliderImages.map((image, index) => (
-          <Images key={index} url={image}  alt=""/>
+        {sliderImages.map((data, index) => (
+          <Images key={index} url={data}  alt=""/>
         ))}
       </Slider>
     </LazyLoad>
+    </>
   );
 }
