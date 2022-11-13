@@ -1,5 +1,5 @@
-import Cesar from "../assets/img/historia/cesar.jpeg";
-import Mariana from "../assets/img/historia/mariana.jpeg";
+import Cesar from "../assets/img/historia/cesar.jpg";
+import Mariana from "../assets/img/historia/mariana.jpg";
 
 import Img1 from "../assets/img/historia/galeria/1.png";
 import Img2 from "../assets/img/historia/galeria/2.png";

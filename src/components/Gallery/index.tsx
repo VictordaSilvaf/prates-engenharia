@@ -8,8 +8,8 @@ export function Gallery() {
   return (
     <div className="flex justify-center w-full">
       <div className="flex flex-wrap justify-center min-h-8">
-        {images.map((image) => (
-          <LazyBlock url={image} />
+        {images.map((image, index) => (
+          <LazyBlock url={image} key={index}/>
         ))}
       </div>
     </div>

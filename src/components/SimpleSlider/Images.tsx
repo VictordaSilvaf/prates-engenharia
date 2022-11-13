@@ -9,25 +9,14 @@ interface ImageProps {
 export function Images({ url, alt }: ImageProps) {
   return (
     <>
-      <div className="relative overflow-hidden sm:h-44 md:h-52 lg:h-72">
-        <span
-          style={{
-            height: "100%",
-          }}
-        >
-          <LazyLoadImage
-            className="p-0.5"
-            src={url}
-            effect="black-and-white"
-            alt={alt}
-            loading="lazy"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        </span>
+      <div className="relative overflow-hidden">
+        <LazyLoadImage
+          className="p-0.5 object-contain"
+          src={url}
+          effect="black-and-white"
+          alt={alt}
+          loading="lazy"
+        />
       </div>
     </>
   );

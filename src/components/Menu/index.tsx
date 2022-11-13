@@ -53,15 +53,15 @@ export function Menu() {
         </div>
       </div>
 
-      <Popover className="absolute flex justify-end w-full pr-12 sm:flex md:flex lg:hidden ">
+      <Popover className="fixed z-50 flex items-center justify-end w-full h-20 pr-12 sm:flex md:flex lg:hidden">
         <Popover.Button
-          className="fixed z-20 mt-7"
+          className="h-5"
           title="Botão menu"
           onClick={ToggleVisibility}
         >
           <List className="h-7 w-7" />
         </Popover.Button>
-        <Popover.Panel className="fixed right-0 z-50 mt-20 transition-all duration-300 bg-white w-52 r-1 drop-shadow-md">
+        <Popover.Panel className="fixed right-0 z-50 transition-all duration-300 bg-white mt-60 w-52 r-1 drop-shadow-md">
           <ul className="flex flex-col text-center">
             <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
               <CustomLinkCol to={"/"}>Home</CustomLinkCol>

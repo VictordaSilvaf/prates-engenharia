@@ -28,7 +28,7 @@ export function Home() {
         >
           <p className="font-thin text-center">
             Desde 2003, a PRATES é uma engenharia e construtora que executa
-            projetos residenciais, comerciais e corporativos, corporativos,
+            projetos residenciais, comerciais e corporativos,
             obras rápidas e complexas, em diversas localidades, promovendo a
             gestão e excelência de todas as etapas da obra, que vão do
             planejamento à entrega.

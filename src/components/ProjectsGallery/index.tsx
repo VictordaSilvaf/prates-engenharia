@@ -1,11 +1,11 @@
-import Orcamento from '../../assets/img/processos/Orcamento.jpeg' //
-import RDO from '../../assets/img/processos/RDO.jpeg'
-import PlanilhaContratacoes from '../../assets/img/processos/Planilha_Contratacoes.jpeg' //
-import Painel from '../../assets/img/processos/Painel_Controle.jpeg'
-import PlanilhaFinanceira from '../../assets/img/processos/Planilha_Financeira.jpeg'
-import Checklist from '../../assets/img/processos/Checklist.jpeg'
-import Histograma from '../../assets/img/processos/cronograma.jpeg'
-import QCs from '../../assets/img/processos/Quadro_Concorrencia.jpeg'
+import Orcamento from '../../assets/img/historia/processos/Orcamento.jpg' //
+import RDO from '../../assets/img/historia/processos/RDO.jpg'
+import PlanilhaContratacoes from '../../assets/img/historia/processos/Planilha_Contratacoes.jpg' //
+import Painel from '../../assets/img/historia/processos/Painel_Controle.jpg'
+import PlanilhaFinanceira from '../../assets/img/historia/processos/Planilha_Financeira.jpg'
+import Checklist from '../../assets/img/historia/processos/Checklist.jpg'
+import Histograma from '../../assets/img/historia/processos/cronograma.jpg'
+import QCs from '../../assets/img/historia/processos/Quadro_Concorrencia.jpg'
 
 export function ProjectsGallery() {
   return (
