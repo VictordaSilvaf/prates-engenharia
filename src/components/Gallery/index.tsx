@@ -4,7 +4,6 @@ import { HomeImages } from "../../assets/img/home";
 
 export function Gallery() {
   const images = Object.values(HomeImages[0]);
-  console.log(images);
 
   return (
     <div className="flex justify-center w-full">
