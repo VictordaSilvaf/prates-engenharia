@@ -7,7 +7,7 @@ export function Contacts() {
   return (
     <>
       <div className="flex flex-col h-auto mt-20 lg:mt-0">
-        <section className="pt-10 px-8 md:pt-20 lg:px-24 flex lg:flex-col lg:h-[550px] flex-col">
+        <section className="flex flex-col px-8 pt-10 md:pt-20 lg:px-24 lg:flex-col lg:h-auto">
           <div className="w-full">
             <div className="flex flex-col gap-4 p-8 lg:w-3/8">
               <h2 className="text-xl font-thin leading-normal text-center lg:text-left">
@@ -33,7 +33,7 @@ export function Contacts() {
           </div>
 
           <div className="flex flex-col w-full gap-8 lg:flex-row">
-            <div className="w-full h-[300px] bg-purple-700 rounded-xl lg:w-4/6 z-0">
+            <div className="w-full h-[450px] bg-purple-700 rounded-xl lg:w-4/6 z-0">
               <MapComponent />
             </div>
             <div className="w-full lg:w-2/6">
