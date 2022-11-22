@@ -38,7 +38,7 @@ export function Contacts() {
             </div>
             <div className="w-full lg:w-2/6">
               <form
-                action="https://formsubmit.co/victordasilvafernandes@gmail.com"
+                action="https://formsubmit.co/contato@pratesconstrutora.com.br"
                 method="POST"
                 className="flex flex-col w-full p-5 text-center border-2 shadow-lg rounded-xl"
               >
