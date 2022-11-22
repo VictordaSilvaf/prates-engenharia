@@ -23,11 +23,11 @@ export function Contacts() {
               </p>
 
               <p className="flex flex-row items-center gap-2 text-lg font-thin leading-normal text-center lg:text-left text-opacity-30">
-                <Phone size={20} /> (11) 95998-2963
+                 <a className="flex flex-row items-center gap-2" href="https://wa.me/message/FVM4ZOCX7LYFM1"><Phone size={20} /> (11) 95998-2963</a>
               </p>
 
               <p className="flex flex-row items-center gap-2 text-lg font-thin leading-normal text-center lg:text-left text-opacity-30">
-                <EnvelopeSimple size={20} /> contato@pratesconstrutora.com.br
+                 <a className="flex flex-row items-center gap-2" href="mailto:contato@pratesconstrutora.com.br"><EnvelopeSimple size={20} /> contato@pratesconstrutora.com.br</a>
               </p>
             </div>
           </div>
