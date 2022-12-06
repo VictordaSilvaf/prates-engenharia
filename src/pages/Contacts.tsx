@@ -5,10 +5,10 @@ import { MapComponent } from '../components/MapComponent/index';
 
 export function Contacts() {
   return (
-    <>
+    <div>
       <Menu />
 
-      <div className="flex flex-col h-auto mt-20 lg:mt-0">
+      <div className="flex flex-col h-auto pt-20 lg:pt-0">
         <section className="flex flex-col px-8 pt-10 md:pt-20 lg:px-24 lg:flex-col lg:h-auto">
           <div className="w-full">
             <div className="flex flex-col gap-4 p-8 lg:w-3/8">
@@ -92,6 +92,6 @@ export function Contacts() {
           <Footer />
         </div>
       </div>
-    </>
+    </div>
   );
 }
