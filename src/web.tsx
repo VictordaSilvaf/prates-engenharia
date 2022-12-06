@@ -3,9 +3,10 @@ import { History } from './pages/History'
 import { Home } from './pages/Home'
 import { Portfolio } from './pages/Portfolio'
 import { Process } from './pages/Process'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, createBrowserRouter } from 'react-router-dom'
 import { AppLayout } from './layout/AppLayout'
 import { Sucesso } from './pages/Sucesso'
+import ErrorPage from './pages/error-page'
 
 export function Web() {
   return (

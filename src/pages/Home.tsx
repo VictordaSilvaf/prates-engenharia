@@ -3,10 +3,13 @@ import { Gallery } from "../components/Gallery/index";
 import BgImage from "../assets/img/home/bannerImage.jpg";
 import { Footer } from "../components/Footer/index";
 import { WhatsappLogo } from "phosphor-react";
+import { Menu } from "../components/Menu";
 
 export function Home() {
   return (
     <div className="">
+      <Menu />
+
       <section className="fixed z-30 flex items-end justify-end float-left w-screen h-screen px-10 py-8 lg:hidden ">
         <a
           href="https://wa.me/message/FVM4ZOCX7LYFM1"
@@ -20,7 +23,7 @@ export function Home() {
       <section className="w-full min-h-screen bg-white">
         <img src={BgImage} alt="" className="object-cover w-screen h-screen" />
       </section>
-      
+
       <div className="flex flex-col justify-center px-20">
         <section
           className="my-16 text-center md:w-2/4 sm:w-full"

@@ -61,26 +61,36 @@ export function Menu() {
         >
           <List className="h-7 w-7" />
         </Popover.Button>
-        <Popover.Panel className="fixed right-0 z-50 transition-all duration-300 bg-white mt-60 w-52 r-1 drop-shadow-md">
+        <Popover.Panel className="fixed right-0 z-50 w-full transition-all duration-300 bg-white mt-60 r-1 drop-shadow-md">
           <ul className="flex flex-col text-center">
-            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
-              <CustomLinkCol to={"/"}>Home</CustomLinkCol>
-            </li>
-            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
-              <CustomLinkCol to="/historia">História</CustomLinkCol>
-            </li>
-            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
-              <CustomLinkCol to="/portfolio">Portfolio</CustomLinkCol>
-            </li>
-            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
-              <CustomLinkCol to="/processos">Processos</CustomLinkCol>
-            </li>
-            <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
-              <CustomLinkCol to="/contato">Contato</CustomLinkCol>
-            </li>
+            <CustomLinkCol to="/">
+              <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
+                Home
+              </li>
+            </CustomLinkCol>
+            <CustomLinkCol to="/historia">
+              <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
+                História
+              </li>
+            </CustomLinkCol>
+            <CustomLinkCol to="/portfolio">
+              <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
+                Portfolio
+              </li>
+            </CustomLinkCol>
+            <CustomLinkCol to="/processos">
+              <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
+                Processos
+              </li>
+            </CustomLinkCol>
+            <CustomLinkCol to="/contato">
+              <li className="p-1 transition-all duration-300 border-b border-opacity-20 hover:bg-gray-100">
+                Contato
+              </li>
+            </CustomLinkCol>
           </ul>
-        </Popover.Panel>
-      </Popover>
-    </div>
+        </Popover.Panel >
+      </Popover >
+    </div >
   );
 }

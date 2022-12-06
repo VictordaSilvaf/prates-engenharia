@@ -6,6 +6,8 @@ import { MapComponent } from '../components/MapComponent/index';
 export function Contacts() {
   return (
     <>
+      <Menu />
+
       <div className="flex flex-col h-auto mt-20 lg:mt-0">
         <section className="flex flex-col px-8 pt-10 md:pt-20 lg:px-24 lg:flex-col lg:h-auto">
           <div className="w-full">
@@ -23,11 +25,11 @@ export function Contacts() {
               </p>
 
               <p className="flex flex-row items-center gap-2 text-lg font-thin leading-normal text-center lg:text-left text-opacity-30">
-                 <a className="flex flex-row items-center gap-2" href="https://wa.me/message/FVM4ZOCX7LYFM1"><Phone size={20} /> (11) 95998-2963</a>
+                <a className="flex flex-row items-center gap-2" href="https://wa.me/message/FVM4ZOCX7LYFM1"><Phone size={20} /> (11) 95998-2963</a>
               </p>
 
               <p className="flex flex-row items-center gap-2 text-lg font-thin leading-normal text-center lg:text-left text-opacity-30">
-                 <a className="flex flex-row items-center gap-2" href="mailto:contato@pratesconstrutora.com.br"><EnvelopeSimple size={20} /> contato@pratesconstrutora.com.br</a>
+                <a className="flex flex-row items-center gap-2" href="mailto:contato@pratesconstrutora.com.br"><EnvelopeSimple size={20} /> contato@pratesconstrutora.com.br</a>
               </p>
             </div>
           </div>

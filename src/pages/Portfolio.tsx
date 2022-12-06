@@ -2,10 +2,13 @@ import { Footer } from "../components/Footer";
 import { CustomSlider } from "../components/CustomSlider";
 
 import { PortfolioImgs } from "../assets/img/portfolio";
+import { Menu } from "../components/Menu";
 
 export function Portfolio() {
   return (
     <>
+      <Menu />
+
       <section className="px-8 pt-20">
         <h2 className="mt-10 text-lg font-bold text-center">Portfólio</h2>
         {PortfolioImgs.map((portfolioImg, index) => {
