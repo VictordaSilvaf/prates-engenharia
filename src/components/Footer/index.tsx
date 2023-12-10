@@ -14,19 +14,19 @@ export function Footer() {
 {/*         <a href="#" className="transition-all hover:opacity-60">
           <FacebookLogo size={28} />
         </a> */}
-        <a href="https://www.instagram.com/prates.construtora/?hl=pt-br" className="transition-all hover:opacity-60">
+        <a target='_blank' href="https://www.instagram.com/prates.construtora/?hl=pt-br" className="transition-all hover:opacity-60">
           <InstagramLogo size={28} />
         </a>
 {/*         <a href="#" className="transition-all hover:opacity-60">
           <YoutubeLogo size={28} />
         </a> */}
-        <a href="https://wa.me/message/FVM4ZOCX7LYFM1" className="transition-all hover:opacity-60">
+        <a target='_blank' href="https://wa.me/message/FVM4ZOCX7LYFM1" className="transition-all hover:opacity-60">
           <WhatsappLogo size={28} />
         </a>
 {/*         <a href="#" className="transition-all hover:opacity-60">
           <TelegramLogo size={28} />
         </a> */}
-        <a href="https://www.linkedin.com/company/prates-engenharia-e-construtora-s-s-ltda./about/" className="transition-all hover:opacity-60">
+        <a target='_blank' href="https://www.linkedin.com/company/prates-engenharia-e-construtora-s-s-ltda./about/" className="transition-all hover:opacity-60">
           <LinkedinLogo size={28} />
         </a>
       </div>

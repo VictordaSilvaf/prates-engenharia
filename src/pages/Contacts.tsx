@@ -25,11 +25,11 @@ export function Contacts() {
               </p>
 
               <p className="flex flex-row items-center gap-2 text-lg font-thin leading-normal text-center lg:text-left text-opacity-30">
-                <a className="flex flex-row items-center gap-2" href="https://wa.me/message/FVM4ZOCX7LYFM1"><Phone size={20} /> (11) 95998-2963</a>
+                <a className="flex flex-row items-center gap-2" target="_blank" href="https://wa.me/message/FVM4ZOCX7LYFM1"><Phone size={20} /> (11) 95998-2963</a>
               </p>
 
               <p className="flex flex-row items-center gap-2 text-lg font-thin leading-normal text-center lg:text-left text-opacity-30">
-                <a className="flex flex-row items-center gap-2" href="mailto:contato@pratesconstrutora.com.br"><EnvelopeSimple size={20} /> contato@pratesconstrutora.com.br</a>
+                <a className="flex flex-row items-center gap-2" target="_blank" href="mailto:contato@pratesconstrutora.com.br"><EnvelopeSimple size={20} /> contato@pratesconstrutora.com.br</a>
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ export function Contacts() {
                   className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 />
                 <div className="flex justify-end">
-                  <button className="bg-gray-650 rounded p-1.5 w-[110px] block mt-2 text-white hover:bg-opacity-90 transition-all">
+                  <button type="submit" className="bg-gray-650 rounded p-1.5 w-[110px] block mt-2 text-white hover:bg-opacity-90 transition-all">
                     Enviar
                   </button>
                 </div>

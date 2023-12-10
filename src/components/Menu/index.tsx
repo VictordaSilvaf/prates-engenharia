@@ -44,7 +44,7 @@ export function Menu() {
 
         {/* BtnWhats */}
         <div className="justify-end hidden w-full lg:flex">
-          <a
+          <a target='_blank'
             href="https://wa.me/message/FVM4ZOCX7LYFM1"
             className="z-20 text-green-500 transition-all pointer-events-auto hover:opacity-60"
           >
