@@ -43,7 +43,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "contato/sucesso",
+    path: "agradecimento-prates",
     element: <Sucesso />,
     errorElement: <ErrorPage />,
   },

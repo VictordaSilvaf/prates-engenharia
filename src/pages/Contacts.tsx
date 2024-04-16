@@ -35,7 +35,7 @@ export function Contacts() {
           </div>
 
           <div className="flex flex-col w-full gap-8 lg:flex-row">
-            <div className="w-full h-[450px] bg-purple-700 rounded-xl lg:w-4/6 z-0">
+            <div className="w-full h-[450px] rounded-xl lg:w-4/6 z-0">
               <MapComponent />
             </div>
             <div className="w-full lg:w-2/6">
@@ -49,7 +49,7 @@ export function Contacts() {
                 <input
                   type="hidden"
                   name="_next"
-                  value="http://localhost:3000/contato/sucesso"
+                  value="https://materiais.pratesconstrutora.com.br/agradecimento-prates"
                 ></input>
                 <input
                   type="text"
